@@ -61,13 +61,13 @@ const JOGOS = [
     },
     {
         id: "11",
-        nome: "The legends of zelda",
+        nome: "The legends of Zelda",
         valor:  "R$ 15,00",
         imagem: "zelda.jpg" 
     },
     {
         id: "12",
-        nome: "super smash bros",
+        nome: "Super Smash Bros",
         valor:  "R$ 30,00",
         imagem: "super.jpg" 
     },

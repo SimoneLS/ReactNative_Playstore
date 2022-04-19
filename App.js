@@ -6,6 +6,8 @@ import Jogos from "./src/components/jogos";
 import Dados from "./dados/Jogos";
 import Destaques from "./src/components/destaques";
 import Banner from "./dados/Destaques";
+import Livros from "./src/components/livros";
+import Capas from "./dados/Livros";
 
 export default function App() {
   return (
@@ -59,7 +61,7 @@ export default function App() {
         marginLeft:20,
         fontSize:20,
         fontWeight:'bold'}}
-        >Em lançamento!</Text>
+        >Jogos em lançamento!</Text>
 
       <FlatList
         horizontal={true}
@@ -73,6 +75,25 @@ export default function App() {
           />
         )}
      />
+      <Text style={{color:'black',
+        marginLeft:20,
+        fontSize:20,
+        fontWeight:'bold'}}
+        >Livros em Destaque!</Text>
+
+      <FlatList
+        horizontal={true}
+        data = {Capas}
+        keyExtractor= {(item) => item.id}
+        renderItem = { ({item}) => (
+          <Jogos
+            titulo = {item.nome}
+            autor = {item.autor}
+            imagem = {item.imagem}
+            valor = {item.valor}
+          />
+        )}
+      />
       
 
     </View>
