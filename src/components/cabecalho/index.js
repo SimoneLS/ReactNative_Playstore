@@ -31,7 +31,7 @@ const estilo = StyleSheet.create({
     },
     Texto:{
         color:'white',
-        marginLeft:-120,
+        marginLeft:'center',
         fontSize:20,
         fontWeight:'bold'
     }

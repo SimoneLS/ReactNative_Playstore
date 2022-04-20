@@ -1,9 +1,9 @@
 import React from "react";
 import { View, TouchableOpacity, StyleSheet, Text, Image} from "react-native";
 
-export default function Destaques({ titulo, legenda, imagem}) {
+export default function Filmes({ titulo, legenda, imagem}) {
     return(
-        <TouchableOpacity style={estilo.containerDestaques}>
+        <TouchableOpacity style={estilo.containerFilmes}>
         <Image
             style={estilo.images}
             source={require(`../../imagens/${imagem}`)}
@@ -15,7 +15,7 @@ export default function Destaques({ titulo, legenda, imagem}) {
     );
 }
 const estilo = StyleSheet.create({
-    containerDestaques: {
+    containerFilmes: {
         backgroundColor: "#DCDCDC",
         borderRadius: 10,
         marginTop: 8,
@@ -42,7 +42,7 @@ const estilo = StyleSheet.create({
     },
     images: {
         width: "100%",
-        height: 170,
+        height: 150,
         borderRadius: 3,
     },
 });

@@ -18,7 +18,7 @@ const estilo = StyleSheet.create({
     containerJogos: {
         backgroundColor: "#DCDCDC",
         borderRadius: 10,
-        marginTop: 50,
+        marginTop: 20,
         padding: 10,
         margin: 2,
         alignItems: "center",

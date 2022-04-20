@@ -50,15 +50,15 @@ const LIVROS = [
     },
     {
         id: "08",
-        nome: "Anne De Green Gables",
-        autor: "Lucy Maud Montgomery",
+        nome: "Anne Green Gables",
+        autor: "Lucy Montg.",
         valor:  "R$ 20,00",
         imagem: "AnneDeGreen.jpg" 
     },
     {
         id: "09",
         nome: "Anne De Avonlea",
-        autor: "Lucy Maud Montgomery",
+        autor: "Lucy Montg.",
         valor:  "R$ 20,00",
         imagem: "AnneDeAvonlea.jpg" 
     },
@@ -93,6 +93,7 @@ const LIVROS = [
     {
         id: "14",
         nome: "Turma da Monica Jovem",
+        autor: "Mauricio Souza",
         valor:  "R$ 1,99",
         imagem: "Monica.jpg" 
     }
